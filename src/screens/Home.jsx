@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ProductList from "./ProductList"; // Make sure you have a ProductList component
+import ProductList from '../Components/ProductList';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -25,5 +25,6 @@ const Home = () => {
     </div>
   );
 };
+
 
 export default Home;
